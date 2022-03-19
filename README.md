@@ -1,3 +1,6 @@
+# Forenote 
+Send POST request to Mage API in order to dynamically take input from UI and return the reccomendations. The recs are shown as an unparsed alert at the moment (needs fixing). 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
