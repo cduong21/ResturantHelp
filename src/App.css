@@ -1,28 +1,91 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  background: #fff;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   text-align: center;
+  padding: 30px;
+  border-radius: calc(0.5 * 100px);
+  background-color:lightpink;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input1 {
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input2 {
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+
+.input3 {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.button{
+  padding-left: 200px;
+  padding-bottom: 30px;
+}
+
+.form-container {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: calc(0.5 * 100px);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  justify-content: space-evenly;
+}
+
+.title{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* .App {
+  text-align: center;
+  background-color: #4568dc;
+}
+
+
+.form-box-large{
+  align-items: center;
+  display: flex;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +98,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
